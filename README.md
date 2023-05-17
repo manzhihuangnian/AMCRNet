@@ -16,5 +16,5 @@
 ```
 
 ## TODO
-1. Add pre-trained weights of two-stage: R50_4x16_k400.pth、R101_4x16_k400.pth
+1. Add pre-trained weights of two-stage: R50_4x16_k400.pth、R101_8x8_k400.pth
 2. Add code of one-stage
