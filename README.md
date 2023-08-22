@@ -8,7 +8,7 @@
 1. We correct the typos in Eq.(5) and Eq.(6) as follows.　　
 
 <p align="center">
-  <img src="equation.jpg" align="middle" width = "700" />
+  <img src="equation.png" align="middle" width = "700" />
 </p>
 
 
