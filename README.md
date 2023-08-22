@@ -9,10 +9,10 @@
 
 $Q_i,K_i,V_i=conv2d(I_i),$\
 $Attn_{i,j}=softmax(\frac{Q_iK_i^T}{\sqrt{C}}),$　　　　(5)\
-$H_i=\displaystyle\sum_{j}^{N+M}Attn_{i,j}*V_j$\
+$H_i=\displaystyle\sum_{j}^{N+M}Attn_{i,j}*V_j$  
 
-$Q_i,K_i,V_i=conv2d(\{\{H,F\}+temporal\_pos\}_i)$,\
-$Attn_{i,j}=softmax(\frac{Q_iK_i^T}{\sqrt{C}}+HMask(i,j))$,　　　　(6)\
+$Q_i,K_i,V_i=conv2d(\{\{H,F\}+temporal\_pos\}_i),$\
+$Attn_{i,j}=softmax(\frac{Q_iK_i^T}{\sqrt{C}}+HMask(i,j)),$　　　　(6)\
 $Ｏ_i=\displaystyle\sum_{j}^{N+M}Attn_{i,j}*V_j$
 
 
