@@ -5,16 +5,11 @@
 2. Trained models are provided in [R50_8x8_k400.pth](https://pan.baidu.com/s/1IZpKiOfE34mU_bJauETN3A?pwd=kesu)
 
 ## Update
-1.We correct the typos in Eq.(5) and Eq.(6) as follows.　　
+1. We correct the typos in Eq.(5) and Eq.(6) as follows.　　
 
-$Q_i,K_i,V_i=conv2d(I_i),$\
-$Attn_{i,j}=softmax(\frac{Q_iK_i^T}{\sqrt{C}}),$　　　　(5)\
-$H_i=\displaystyle\sum_{j}^{N+M}Attn_{i,j}*V_j$  
-
-$Q_i,K_i,V_i=conv2d(\{\{H,F\}+temporal\_pos\}_i),$
-$Attn_{i,j}=softmax(\frac{Q_iK_i^T}{\sqrt{C}}+HMask(i,j)),$　　　　(6)\
-$Ｏ_i=\displaystyle\sum_{j}^{N+M}Attn_{i,j}*V_j$
-
+<p align="center">
+  <img src="equation.jpg" align="middle" width = "700" />
+</p>
 
 
 ## test
