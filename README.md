@@ -8,7 +8,7 @@
 1.We correct the typos in Eq.(5) and Eq.(6) as follows.　　
 
 $Q_i,K_i,V_i=conv2d(I_i),$\
-$Attn_{i,j}=softmax(\frac{<Q_i,K_i>}{\sqrt{C}}),$　　　　(5)\
+$Attn_{i,j}=softmax(\frac{Q_iK_i^T}{\sqrt{C}}),$　　　　(5)\
 $H_i=\displaystyle\sum_{j}^{N+M}Attn_{i,j}*V_j$
 　　
 $Q_i,K_i,V_i=conv2d(\{\{H,F\}+temporal\_pos\}_i)$,\
