@@ -11,7 +11,8 @@
  $Attn_{i,j}=softmax(\frac{Q_iK_i^T}{\sqrt{C}}),$　　　　(5)\
  $H_i=\displaystyle\sum_{j}^{N+M}Attn_{i,j}*V_j$  
   
-2. We correct the typos in Eq.(6) as follows
+2. We correct the typos in Eq.(6) as follows.  
+
     $Q_i,K_i,V_i=conv2d(\{\{H,F\}+temporal\_pos\}_i),$
 $Attn_{i,j}=softmax(\frac{Q_iK_i^T}{\sqrt{C}}+HMask(i,j)),$　　　　(6)\
 $Ｏ_i=\displaystyle\sum_{j}^{N+M}Attn_{i,j}*V_j$
